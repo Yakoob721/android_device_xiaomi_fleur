@@ -1389,3 +1389,37 @@ vendor/firmware/WIFI_RAM_CODE_soc2_2_2a_1.bin|264394a9c720c5bb10b48ccc2443310006
 vendor/firmware/WMT_SOC.cfg|149755935ac3ab45e05288a227e7f42fdc941644
 vendor/firmware/soc2_2_ram_wifi_2_1_hdr.bin|c2aec4a0c8d4a19072a5920acb6d9316a04ac9fc
 vendor/firmware/soc2_2_ram_wifi_2a_1_hdr.bin|860dfe087f5d09bddfa6695829f853f042067975
+
+
+# IPsec & VoWiFi Security (Crucial for Handshake)
+vendor/bin/ipsec_mon
+vendor/etc/ipsec/ipsec.conf
+vendor/etc/ipsec/strongswan.conf
+vendor/etc/ipsec/ssl/openssl.cnf
+vendor/lib/libipsec_ims_shr.so
+vendor/lib64/libipsec_ims_shr.so
+vendor/etc/permissions/android.software.ipsec_tunnels.xml
+
+# VoWiFi Certificates
+vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootCA.crt
+vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG2.crt
+vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG3.crt
+vendor/etc/ipsec/ipsec.d/cacerts/Entrust.net_Certification_Authority_2048.cer
+vendor/etc/ipsec/ipsec.d/cacerts/EntrustRootCertificationAuthorityG2_root.crt
+vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_PCA_G3_Root.der
+vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_Primary_CA.der
+vendor/etc/ipsec/ipsec.d/cacerts/GeoTrust_Primary_CA_G2_ECC.der
+vendor/etc/ipsec/ipsec.d/cacerts/GlobalSign_root_CA.crt
+vendor/etc/ipsec/ipsec.d/cacerts/LibertyGlobalEnterprise-Root-CA-G1.crt
+vendor/etc/ipsec/ipsec.d/cacerts/Root-R3.cer
+vendor/etc/ipsec/ipsec.d/cacerts/Root_CA_1003.crt
+vendor/etc/ipsec/ipsec.d/cacerts/USERTrustRSACertificationAuthority.crt
+vendor/etc/ipsec/ipsec.d/cacerts/VeriSignClass3G4.der
+vendor/etc/ipsec/ipsec.d/cacerts/VeriSignClass3G5.der
+vendor/etc/ipsec/ipsec.d/cacerts/VeriSignUniversalRootCertification.der
+vendor/etc/ipsec/ipsec.d/cacerts/gold.cer
+vendor/etc/ipsec/ipsec.d/cacerts/thawte.der
+
+# MediaTek IMS Handover Utils
+vendor/lib64/libcompetent-vowifi-utils.so
+vendor/lib64/libvowifi_adapter.so
