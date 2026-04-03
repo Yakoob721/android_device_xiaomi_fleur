@@ -358,3 +358,14 @@ PRODUCT_COPY_FILES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/fleur/fleur-vendor.mk)
+
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.mtk_wfc_support=1 \
+    persist.vendor.mtk_vowifi_support=1 \
+    persist.vendor.mtk_epdg_support=1 \
+    persist.vendor.vowifi.entitlement.required=0
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.vowifi.entitlement.required=0
+
