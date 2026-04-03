@@ -1423,3 +1423,23 @@ vendor/etc/ipsec/ipsec.d/cacerts/thawte.der
 # MediaTek IMS Handover Utils
 vendor/lib64/libcompetent-vowifi-utils.so
 vendor/lib64/libvowifi_adapter.so
+
+# WFC / VoWiFi
+vendor/bin/wfc-ipsec-helper
+vendor/bin/wfc-stack
+vendor/bin/wo_epdg_client
+vendor/bin/hw/vendor.mediatek.hardware.wfc@1.0-service
+vendor/lib64/libwfc_stack.so
+vendor/lib64/libwfc_stack_wrapper.so
+vendor/lib64/lib_wo_adapter.so
+vendor/lib64/libwo_epdg_client.so
+vendor/lib64/libwo_epdg_client_proxy.so
+vendor/lib64/vendor.mediatek.hardware.wfc@1.0.so
+vendor/etc/wfc_capability_config.xml
+vendor/bin/charon
+vendor/lib64/libcharon-ss.so
+vendor/lib64/libhydra.so
+vendor/bin/starter
+vendor/bin/stroke
+vendor/lib64/libstrongswan.so
+vendor/lib64/libhydra.so
